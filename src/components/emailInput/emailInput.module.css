@@ -1,0 +1,68 @@
+.container {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textContainer > span {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 12px;
+    color: hsl(234, 29%, 20%);
+    letter-spacing: 0.5px;
+}
+
+.textContainer > p {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 12px;
+    color: hsl(4, 100%, 67%);
+    letter-spacing: 0.5px;
+}
+
+.email-input, .invalid {
+    width: 98%;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 20px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    border: 1px solid hsl(231, 7%, 60%);
+    color: hsl(234, 29%, 20%);
+}
+
+.invalid {
+    background-color: hsla(4, 100%, 67%, 0.157);
+    border: 1px solid hsl(4, 100%, 67%);
+    color: hsl(4, 100%, 67%);
+}
+
+.valid-button, .invalid-button {
+    width: 103%;
+    height: 40px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+.valid-button {
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
+.invalid-button {
+    background-color: hsl(234, 29%, 20%);
+}
